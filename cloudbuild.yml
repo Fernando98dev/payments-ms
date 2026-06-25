@@ -16,3 +16,6 @@ steps:
         "push",
         "northamerica-south1-docker.pkg.dev/microservices-shop-500412/image-registry/payments-ms",
       ]
+
+options:
+  logging: CLOUD_LOGGING_ONLY
