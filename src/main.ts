@@ -28,6 +28,7 @@ async function main() {
 
   await app.startAllMicroservices();
   await app.listen(envs.port ?? 3000);
+  console.log('health check working');
   logger.log(`Payments Microservice running on port ${envs.port}`);
 
 }
